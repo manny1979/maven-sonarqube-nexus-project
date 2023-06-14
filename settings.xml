@@ -30,7 +30,7 @@ under the License.
     <server>
       <id>nexusdeploymentrepo</id>
       <username>admin</username>  <!-- Provide Your Nexus Repository Server Username and Password -->
-      <password>admin</password>
+      <password>Ecstasy</password>
     </server>
 
   </servers>
@@ -60,7 +60,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>your custom repo</name>
-         <url>http://10.0.14.100:8081/repository/java-webapp-repo/</url>
+         <url>http://10.0.10.48:8081/repository/maven-project-repository/</url>
        </repository>
 	   
      </repositories>
@@ -71,7 +71,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>your custom repo</name>
-         <url>http://10.0.14.100:8081/repository/java-webapp-repo/</url>
+         <url>http://10.0.10.48:8081/repository/maven-project-repository/</url>
        </repository>
      </repositories>
    </profile>
